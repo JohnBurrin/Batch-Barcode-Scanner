@@ -15,7 +15,7 @@ This application has been designed to work specifically on the **M Series Rugged
 
 
 **Configurable data submission endpoint**
-The application is configured by a a QR code, doing allows the application to be configured in a single scan. This code is a simple JSON object that contains the name value pairs of configuration items.
+The application is configured by a single QR code, doing this allows the application to be configured with a single scan and prevents misconfiguration. This code is a simple JSON object that contains the name value pairs of configuration items.
 
     {
     "UpdateConfiguration":[
